@@ -1,0 +1,116 @@
+.product{
+flex: 4;
+padding: 20px;
+}
+.productTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.productAddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    font-size: 16;
+    cursor: pointer;
+}
+.productTop{
+    display: flex;
+
+}
+.productTopLeft,.productTopRight{
+flex: 1;
+}
+.productTopRight{
+   
+ padding: 20pxpx;
+ margin: 20px;
+ box-shadow: 0px 0px 4px -1px rgba(0,0,0,1);
+ -webkit-box-shadow: 0px 0px 4px -1px rgba(0,0,0,1);
+ -moz-box-shadow: 0px 0px 4px -1px rgba(0,0,0,1);
+}
+.productInfoImg{
+width: 30px;
+height: 30px;
+border-radius: 50px;
+object-fit: cover;
+margin-right: 20px;
+}
+.productInfoTop{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.productName{
+font-weight: 600;
+}
+.productInfoBottom{
+    margin: 10px;
+}
+.productInfoItem{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.productInfoValue{
+    font-weight:300;
+    color: grey;
+}
+.productBottom{
+    padding: 20pxpx;
+    margin: 20px;
+    box-shadow: 0px 0px 4px -1px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 0px 4px -1px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 4px -1px rgba(0,0,0,1);
+   }
+.productForm{
+    display: flex;
+    justify-content: space-between;
+}
+.productFormLeft{
+    display: flex;
+    flex-direction: column;
+}
+.productFormLeft>label{
+margin-bottom: 10px;
+color: gray;
+}
+.productFormLeft>input{
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom:1px solid gray ;
+}
+.productFormLeft>select{
+    margin-bottom: 10px;
+}
+.poductUploadImg{
+     width: 100px;
+    height: 100px; 
+    padding: 8px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+
+}
+.productFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.productUpload{
+    display: flex;
+    align-items: center;
+}
+.productButton{
+ border: none;   
+ padding: 5px;
+ border-radius: 5px;
+ background-color: darkblue;
+ color: white;
+ font-weight: 600;
+ cursor: pointer;
+}
